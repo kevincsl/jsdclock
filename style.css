@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+#clock {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 100px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #eee;
+}
+#clockButton {
+    background-color: #eee; /* Changed back to light gray */
+    border-color: black;
+}
